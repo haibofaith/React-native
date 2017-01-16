@@ -1,7 +1,7 @@
 # React-native
 从零开始React-native（Android）
 
-<a href=“http://reactnative.cn/docs/0.35/sample-application-movies.html”>官方demo</a>
+<a href="http://reactnative.cn/docs/0.35/sample-application-movies.html">官方demo</a>
 <br/>
 ![image](http://reactnative.cn/static/docs/0.35/img/TutorialFinal.png)
 
