@@ -27,3 +27,11 @@
 <br/>
 ![image](https://github.com/haibofaith/React-native/blob/master/image/004TextInput.png)
 
+
+
+
+<br/>
+<a href="http://www.lcode.org/%E3%80%90react-native%E5%BC%80%E5%8F%91%E3%80%91react-native%E6%8E%A7%E4%BB%B6%E4%B9%8Bprogressbarandroid%E8%BF%9B%E5%BA%A6%E6%9D%A1%E8%AE%B2%E8%A7%A312/"/>005ProgressBarAndroid组件</a>
+<br/>
+![image](https://github.com/haibofaith/React-native/blob/master/image/005ProgressBarAndroid.png)
+
