@@ -1,30 +1,34 @@
 import React, {Component} from 'react';
 import {
   AppRegistry,
-  View,
+  Text,
   StyleSheet,
 } from 'react-native';
 
 var HelloWor = React.createClass({
   render: function() {
     return (
-      <View style={styles.first_view}>
-        <View style={styles.second_view}>
-        </View>
-      </View>
+      <Text style = {styles.titleBase}>
+      I am root text!
+        <Text style = {styles.title}>
+          I am child Text!
+        </Text>
+      </Text>
     );
   }
 });
 
 var styles = StyleSheet.create({
-  first_view:{
-    flexDirection:'row',
-    height:100,
-    margin:20
+  titleBase :{
+    margin:10,
+    textAlign:'center',
+    color:'red',
+    fontSize:28,
+    fontFamily:'Cochin'
   },
-  second_view:{
-    backgroundColor:'blue',
-    flex:1
+  title:{
+    color:'green',
+    fontWeight:'bold',
   },
 });
 AppRegistry.registerComponent('HelloWorld', () => HelloWor);
