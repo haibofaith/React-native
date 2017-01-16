@@ -10,12 +10,11 @@ import {
 var HelloWor = React.createClass({
   render: function() {
     return (
-      <Text style = {styles.titleBase}>
-      I am root text!
-        <Text style = {styles.title}>
-          I am child Text!
-        </Text>
-      </Text>
+      <View style = {{marginLeft:10,marginRight:10}}>
+          <Text style = {styles.titleBase}>测试本地图片</Text>
+          //注意本地路径地址，根目录为HelloWorld项目文件夹
+          <Image source = {require('./android/img/my_icon.jpg')}/>
+      </View>
     );
   }
 });
@@ -27,10 +26,6 @@ var styles = StyleSheet.create({
     color:'red',
     fontSize:28,
     fontFamily:'Cochin'
-  },
-  title:{
-    color:'green',
-    fontWeight:'bold',
   },
 });
 AppRegistry.registerComponent('HelloWorld', () => HelloWor);
