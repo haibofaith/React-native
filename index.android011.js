@@ -27,7 +27,7 @@ var ListViewDemo = React.createClass({
         };
   },
 
-  _renderRow: function(rowData: string, sectionID: number, rowID: number){
+  _renderRow: function(rowData: string){
     var imgSource = THUMB_URLS[rowID];
     return (
         <View>
